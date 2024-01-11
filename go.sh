@@ -17,7 +17,7 @@ docker run \
   -e POSTGRES_PASSWORD="${PGPASSWORD}" \
   -e POSTGRES_USER="${PGUSERNAME}" \
   -d \
-  postgres:9.6.12
+  postgres:16.1
 
 # Check that the database is up
 docker run \
